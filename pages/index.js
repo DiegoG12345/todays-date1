@@ -21,6 +21,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to my website, Here is another awsome site to check out <a href="https://opalcamera.com">Opal!</a>
            Here is my about page <a href='https://todays-date11.vercel.app/about'>About</a>
+           
         </h1>
         
         <p className={styles.description}>
