@@ -25,7 +25,7 @@ export default function Home() {
         </h1>
         
         <p className={styles.description}>
-          Todays Date Jun 7 2022{' '}
+          Todays Date Jun 8 2022{' '}
           
         </p>
 
