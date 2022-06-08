@@ -1,22 +1,21 @@
 const http = require('http');
 
-// Example route
+
 app.get('/some/api/endpoint',  (req, res) => {
 
-    http.get('http://someapi.com/api/endpoint', (resp) => {
+    http.get('https://randomuser.me/', (resp) => {
         let data = '';
 
-        // Concatinate each chunk of data
+       
         resp.on('data', (chunk) => {
           data += chunk;
         });
 
-        // Once the response has finished, do something with the result
+      
         resp.on('end', () => {
           res.json(JSON.parse(data));
         });
 
-        // If an error occured, return the error to the user
       }).on("error", (err) => {
         res.json("Error: " + err.message);
       });
