@@ -7,9 +7,13 @@ body {
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  color: blue;
+
 }
+button{
+  background-color: red;
+}
+
 
 * {
   box-sizing: border-box;
